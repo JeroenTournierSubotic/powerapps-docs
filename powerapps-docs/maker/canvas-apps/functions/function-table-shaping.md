@@ -59,7 +59,7 @@ For all these functions, the result is a new table with the transform applied.  
 * *Table* - Required.  Table to operate on.
 * *ColumnName(s)* - Required. Name(s) of the column(s) to drop. You must specify a string (for example, **"Name"** with double quotes included) for this argument.
 
-**RenameColumns**( *Table*, *OldColumneName1*, *NewColumnName1* [, *OldColumnName2*, *NewColumnName2*, ... ] )
+**RenameColumns**( *Table*, *OldColumnName1*, *NewColumnName1* [, *OldColumnName2*, *NewColumnName2*, ... ] )
 
 * *Table* - Required.  Table to operate on.
 * *OldColumnName* - Required. Name of a column to rename from the original table. This element appears first in the argument pair (or first in each argument pair if the formula includes more than one pair). This name must be a string (for example **"Name"** with double quotation marks included).
